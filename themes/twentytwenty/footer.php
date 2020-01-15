@@ -30,7 +30,7 @@
 
 						<p class="powered-by-wordpress">
 							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentytwenty' ) ); ?>">
-								<?php _e( 'Powered by Nan Thawe Htun', 'twentytwenty' ); ?>
+								<?php _e( 'Powered by Thawe Htun G', 'twentytwenty' ); ?>
 							</a>
 						</p><!-- .powered-by-wordpress -->
 
