@@ -10,7 +10,7 @@
  * @subpackage Twenty_Twenty
  * @since 1.0.0
  */
-
+//I heard its your birthday
 ?>
 			<footer id="site-footer" role="contentinfo" class="header-footer-group">
 
@@ -30,7 +30,7 @@
 
 						<p class="powered-by-wordpress">
 							<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentytwenty' ) ); ?>">
-								<?php _e( 'Powered by Strong and Powerful Thwae Htun', 'twentytwenty' ); ?>
+								<?php _e( 'Powered by Thawe Htun', 'twentytwenty' ); ?>
 							</a>
 						</p><!-- .powered-by-wordpress -->
 
