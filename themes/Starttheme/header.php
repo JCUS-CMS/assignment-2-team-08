@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<!--[if lt IE 9]>
-	    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your relationship with CMS.</p>
+<p class="browsehappy">You are using an <strong>updated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your relationship with CMS. We are team8.</p>
 	<![endif]-->
 
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_mbbasetheme' ); ?></a>
