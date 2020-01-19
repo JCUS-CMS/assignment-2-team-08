@@ -20,7 +20,12 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<!--[if lt IE 9]>
+<<<<<<< HEAD
 <p class="browsehappy">You are using an <strong>updated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your relationship with CMS. We are team8.</p>
+=======
+	    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your relationship with CMS.
+Let's get HD.</p>
+>>>>>>> 8af231936c6d9dd5b3febc444d43f193776af007
 	<![endif]-->
 
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_mbbasetheme' ); ?></a>
