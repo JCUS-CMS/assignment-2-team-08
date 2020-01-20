@@ -20,12 +20,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
 	<!--[if lt IE 9]>
-<<<<<<< HEAD
-<p class="browsehappy">You are using an <strong>updated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your relationship with CMS. We are team8.</p>
-=======
-	    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your relationship with CMS.
-Let's get HD.</p>
->>>>>>> 8af231936c6d9dd5b3febc444d43f193776af007
+	    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience BY Southerner's you.</p>
 	<![endif]-->
 
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', '_mbbasetheme' ); ?></a>
@@ -33,7 +28,7 @@ Let's get HD.</p>
 	<header id="masthead" class="site-header" role="banner">
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<h2 class="site-description"><?php bloginfo( 'Kphoothawnaing' ); ?></h2>
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
