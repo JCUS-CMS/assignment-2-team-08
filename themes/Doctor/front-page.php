@@ -1,1 +1,6 @@
- This is the Front page.
+<? php get_headers();?>
+
+
+
+
+<? php get_footer();?>
