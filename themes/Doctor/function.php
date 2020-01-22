@@ -41,7 +41,7 @@ register_nav_menus(
 
 	 		'top-menu' => 'Top Menu location',
 	 		'mobile-menu' => 'Mobile Menu location',
-	 	);
+	 	)
 
 );
 
