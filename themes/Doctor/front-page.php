@@ -8,15 +8,15 @@
 
     <h1><?php the_title(); ?></h1>
     
-    <h2><?php the_field('home_subtitle'); ?></h2>
+   <!--  <h2><?php the_field('home_subtitle'); ?></h2>
 
     <div class="description"><?php the_field('home_description'); ?></div>
     
     <?php get_template_part('includes/section', 'content'); ?>
 
-    <!-- Image Field -->
+ Image Field -->
     <img width="350" src="<?php the_field('home_image'); ?>" alt="">
-
+ -->
     <!-- Group Field -->
     <?php
 		// vars 
