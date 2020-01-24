@@ -61,41 +61,61 @@ register_nav_menus(
 
 // custom image-sizes
 add_image_size('blog-large', 800, 400, true);
-add_image_size('blog-small', 250, 250, true);
+add_image_size('blog-small', 350, 250, true);
 
 //Registering the sidebars
 function my_sidebars()
 {
-			register_sidebar(
+	register_sidebar(
 
-						array(
+		array(
 
-								'name' => 'Page sidebar',
-								'id'   => 'page-sidebar',
-								'before_title' => '<h4 class= "widget-title">',
-								'after-title' => '</h4>'
-
-
-
-						)
-			);
-
-
-register_sidebar(
-
-						array(
-
-								'name' => 'Blog sidebar',
-								'id'   => 'blog-sidebar',
-								'before_title' => '<h4 class= "widget-title">',
-								'after-title' => '</h4>'
+			'name' => 'Page sidebar',
+			'id'   => 'page-sidebar',
+			'before_title' => '<h4 class= "widget-title">',
+			'after-title' => '</h4>'
 
 
 
-						)
-			);
+			)
+	);
+
+
+	register_sidebar(
+
+		array(
+
+			'name' => 'Blog sidebar',
+			'id'   => 'blog-sidebar',
+			'before_title' => '<h4 class= "widget-title">',
+			'after-title' => '</h4>',
+
+
+
+			)
+	);
 
 
 }
 
 add_action('widgets_init','my_sidebars');
+
+//Post Types
+function journals_post_type() { 
+
+    $args = array(
+        'labels' => array(
+            'name' => 'Journals',
+            'singular_name' => 'Journal',
+        ),
+        'hierarchical' => false,
+        'public' => true,
+        'has_archive' => true,
+        'menu_icon' => 'dashicons-media-document',
+        'supports' => array('title', 'editor', 'thumbnail'),
+        // 'rewrite' => array('slug' => 'the-journals')
+    );
+
+    register_post_type('journals', $args);
+}
+add_action('init', 'journals_post_type');

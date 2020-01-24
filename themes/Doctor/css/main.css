@@ -5,8 +5,9 @@ header{
 }
 
 .widget ul{
-	list-style-type: ;
+	list-style-type:none;
 	margin:0;
+	margin-left: 2;
 	padding top: 2rem;
 }
 
@@ -60,6 +61,20 @@ header .top-bar li a{
 
 
 }
+
+.card-body{
+	list-style-type: none;
+}
+
+.page-wrap{
+	color: #8B0000;
+}
+
+h4.widget-title{
+	font-family: Arial;
+	color: #8B0000;
+}
+
 
 header .top-bar li a:hover:not(.active) {
   background-color:#181800;

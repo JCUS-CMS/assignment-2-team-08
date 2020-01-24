@@ -7,6 +7,9 @@
 
 
 	<?php wp_head();?>
+	
+	
+	
 
 
 	
@@ -15,6 +18,7 @@
 
 
 <header>
+
 
 	<div class="container">
 		<?php 
