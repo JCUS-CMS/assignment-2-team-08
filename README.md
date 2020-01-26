@@ -28,7 +28,7 @@ Download Wordpress in your own device.
 
 Delete all files in the wp-content folder in Wordpress theme files.
 
-Clone and download from Github - https://github.com/JCUS-CMS/assignment-2-team-10.git file.
+Clone and download from Github - https://github.com/JCUS-CMS/assignment-2-team-08.git file.
 
 Transfer the downloaded file to a wp-content file.
 
